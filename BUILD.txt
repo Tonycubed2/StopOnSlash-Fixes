@@ -1,0 +1,12 @@
+dTryHitStop (StopOnSlash) 2.2.1 - upstream source from github.com/doodlum/StopOnSlash
+Built against CommonLibSSE-NG 16.2.0 at C:\dllmaker\CommonLibSSE-NG.
+Works on Skyrim 1.5.97, 1.6.1170, 1.7.99 and 1.7.104.
+
+Build (Developer Command Prompt for VS 2022), one line at a time:
+  cd /d C:\dllmaker\dTryHitStop
+  cmake --preset vs2022-windows
+  cmake --build build --config Release
+
+Output: build\Release\dTryHitStop.dll and .pdb
+Settings: Data\MCM\Settings\StopOnSlash.ini (unchanged; keep the one from your mod)
+Log: Documents\My Games\Skyrim Special Edition\SKSE\dTryHitStop.log

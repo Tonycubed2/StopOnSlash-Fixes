@@ -14,6 +14,11 @@
 #	include "SKSE/SKSE.h"
 #endif
 
+// CommonLibSSE-NG 16 no longer defines SKSEAPI (6.x had it in SKSE/API.h as __cdecl)
+#ifndef SKSEAPI
+#	define SKSEAPI __cdecl
+#endif
+
 #ifdef NDEBUG
 #	include <spdlog/sinks/basic_file_sink.h>
 #else
